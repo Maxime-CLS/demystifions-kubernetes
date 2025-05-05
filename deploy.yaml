@@ -15,5 +15,5 @@ spec:
         app: web
     spec:
       containers:
-      - image: zwindler/vhelloworld
+      - image: nginx
         name: web

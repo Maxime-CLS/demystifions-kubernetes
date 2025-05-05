@@ -9,6 +9,9 @@ fi
 # change arch if necessary
 if [ -z "$1" ]; then ARCH=amd64; else ARCH=$1; fi
 
+# force MacOS architecture
+ARCH=arm64
+
 git fetch origin
 git reset --hard origin/main
 
